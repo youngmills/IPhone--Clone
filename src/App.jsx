@@ -6,7 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import Features from './components/Features';
 import Footer from './components/Footer';
 
-import * as Sentry from '@sentry/react';
+
 
 
 const App = () => {
@@ -25,4 +25,4 @@ const App = () => {
   )
 }
 
-export default Sentry.withProfiler(App);
+export default App;
