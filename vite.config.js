@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react(), sentryVitePlugin({
     org: "university-of-nairobi-b3",
     project: "javascript-react",
-    base: '/IPhone--Clone/'
+    base: '/IPhone--Clone/',
   })],
 
   build: {
