@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/IPhone--Clone/',
   plugins: [react(), sentryVitePlugin({
     org: "university-of-nairobi-b3",
     project: "javascript-react",
-    base: '/IPhone--Clone/',
   })],
 
   build: {
